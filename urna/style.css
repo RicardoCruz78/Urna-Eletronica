@@ -7,7 +7,7 @@
 
 
 body {
-    margin:0;
+    margin: 10px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +22,10 @@ body {
 }
 
 .tela {
-    width: 500px;
-    height: 320px;
+    width: 600px;
+    height: 420px;
     background: linear-gradient(to right, #E8E8E8, #C1C1C1);    
-    border: 2px solid #555;
+    border: 3px solid #555;
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .teclado--botao {
-    width: 70px;
+    width: 100px;
     height: 40px;
     background-color: #000;
     color: #FFF;
@@ -51,7 +51,7 @@ body {
     align-items: center;
     margin: 10px;
     cursor: pointer;
-    box-shadow: 3px 3px 0px #555;
+    box-shadow: 6px 6px 0px #555;
 }
 
 .botao--branco {
@@ -139,15 +139,16 @@ font-size: 15px;
     border: 1px solid #000;
     background-color: #FFF;
     text-align: center;
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .d-1-image img {
-    width: 100%;
+    width: 140%;
+    
 }
 
 .d-1-image.small {
-    width: 80%;
+    width: 100%;
     font-size: 12px;
 }
 
@@ -164,7 +165,7 @@ font-size: 15px;
 }
 
 .aviso--gigante {
-    font-size: 70px;
+    font-size: 120px;
     font-weight: bold;
     flex: 1;
     display: flex;

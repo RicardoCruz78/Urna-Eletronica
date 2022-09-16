@@ -1,22 +1,25 @@
 let etapas = [
 {
-    titulo: 'VEREADOR',
-    numeros: 5,
+    titulo: 'GOVERNADOR',
+    numeros: 2,
     candidatos:[
         {
-            numero: '38111',
-            nome: 'Jair Messias Bolsonaro',
-            partido:'ABC',
+            numero: '22',
+            nome: 'Tarcísio de Freitas',
+            partido:'REPUBLICANO',
             fotos:[
-                {url:'bolsonaro.jpg',legenda: 'Vereador'}
+                {url: 'tarcisio.jpg',legenda: 'Governador'}
+                
             ]
         },
     {
-        numero: '77222',
-        nome: 'Beltrano de tal',
-        partido: 'Popular',
+        numero: '13',
+        nome: 'Fernando Haddad',
+       
+        partido: 'PT',
         fotos:[
-            {url:'Braga.jpg',legenda: 'Vereador'}
+            {url:'haddad.jpg',legenda: 'Governador'}
+            
         ]
     },   
 
@@ -25,27 +28,27 @@ let etapas = [
 },
 
 {
-    titulo: 'PREFEITO',
+    titulo: 'PRESIDENTE',
     numeros: 2,
     candidatos:[
         {
-            numero:'99',
-            nome: 'Ciclano',
-            partido: 'PT',
-            vice: 'Cic',
+            numero:'22',
+            nome: 'Jair Messias Bolsonaro',            
+            partido: 'PL',
+            vice: 'General Braga Netto',
             fotos: [
-                {url: 'tarcisio.jpg',legenda: 'Prefeito'},
-                {url: 'zambelli.jpg',legenda: 'Vice-Prefeito',small:true}
+                {url:'bolsonaro.jpg',legenda: 'Presidente'},
+                {url: 'Braga.jpg',legenda: 'Vice-Presidente',small:true}
             ]
         },
         {
-            numeros:'84',
-            nome: 'Zulano',
-            partido: 'PMDB',
-            vice: 'Zul',
+            numero:'13',
+            nome: 'Luiz Inácio Lula da Silva',        
+            partido: 'PT',
+            vice: 'Alckmin',
             fotos: [
-                {url: '84.jpg',legenda: 'Prefeito'},
-                {url: '84_2.jpg',legenda: 'Vice-Prefeito',small:true}
+                {url: 'lula.jpg',legenda: 'Presidente'},
+                {url: 'alckmin.jpg',legenda: 'Vice-Presidente',small:true}
             ]
         },
         
